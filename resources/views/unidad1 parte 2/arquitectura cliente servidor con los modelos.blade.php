@@ -5,7 +5,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#">Apuntes</a></li>
       <li><a href="#">Parcial 1</a></li>
-      <li><a href="#">Arquitectura cliente servidor</a></li>
+      <li><a href="#">clientes servidor con los modelos</a></li>
     </ul>
 @endsection
 
