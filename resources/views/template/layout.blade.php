@@ -20,7 +20,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/01.png');"> 
+<div class="bgded overlay" style="background-image:url('../images/index/portada.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row0">
     <div id="topbar" class="hoc clear">
@@ -62,7 +62,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left"> 
         <!-- ################################################################################################ -->
-        <h1><a href="../index.html">5°CUATRIMESTRE ING.SOFTWARE</a></h1>
+        <h1><a href="{{route('inicio')}}">5°CUATRIMESTRE ING.SOFTWARE</a></h1>
         <!-- ################################################################################################ -->
       </div>
       <nav id="mainav" class="fl_right"> 
