@@ -31,6 +31,9 @@ Por último, establecemos las ordenes de producción alineando lo obtenido en el
 <p>Un MPS no se puede elaborar sin saber el tiempo que se tarda en elaborar un producto o servicio, sin importar el sistema de trabajo: trabajo para almacenar (MTS, make to stock), montaje bajo pedido (ATO, Assemble to order) o fabricación bajo pedido (Make to order)
 
 Una vez que se tiene esa información, ya es posible comprometerse con los clientes para entregar el pedido en una fecha concreta.</p>
+
+<img src="../images/demo/arqui.png" alt="" width="600px" height="150px">
+
 <h2>Proceso para realizar el programa maestro de produccion</h2>
 <p>Para realizar un PMP hay que partir de la demanda, ya sea pronosticad y/o basada en los pedidos de los clientes. Una vez que se tengan esos datos, hay que comenzar a elaborar 
   un plan que se ajuste a los definido en el Plan Agregado. Hay algunos aspectos que se deben considerar:</p>
@@ -43,6 +46,8 @@ Una vez que se tiene esa información, ya es posible comprometerse con los clien
   <p>Normalmente, primero se desarrolla un borrador del Plan para determinar que cantidades de producto son alcanzables en el plazo de entrega establecido.</p>
   <p>Igualmente, es necesario conocer las necesidades de entrega de los clientes y ver cómo ajustar los niveles de capacidad con los de producción. Además, hay que determinar los inventarios.</p>
   <p>En el caso de que se produzca una sobrecarga en la capacidad de producción, el plan tiene que revisarse para ajustar las prioridades o para volver a calcular los plazos de entrega.</p>
+  
+  
   <h2>Tareas del programa maestro de produccion</h2>
   <p>1.Previsión de la demanda: Se trata del primer paso que tiene lugar en el PMP. La previsión de la demanda se basa en -como su nombre lo indica- realizar un pronóstico de las ventas en un periodo en específico. De modo que la empresa pueda contar con una base para saber cuánto necesitará producir.</p>
   <p>2.Planificación de la capacidad de producción: En esta fase, la compañía debe establecer cuál es su capacidad tanto a medio como largo plazo.</p>
