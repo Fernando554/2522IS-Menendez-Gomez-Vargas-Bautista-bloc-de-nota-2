@@ -104,6 +104,15 @@ Licence URI: https://www.os-templates.com/template-terms
                   <li><a href="{{route('apunte21')}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
                  </ul>
               </li>
+              <li><a class="drop" href="#">Parcial 2 Modelos multinivel</a>
+                <ul>
+                  <li><a href="{{route('apunte22')}}">Concepto de nivel vinculado a programacion web</a></li>
+                  <li><a href="{{route('apunte23')}}">Proceso de planificacion en dos niveles</a></li>
+                  <li><a href="{{route('apunte24')}}">Proceso de planificacion en tres niveles</a></li>
+                  <li><a href="{{route('apunte25')}}">Proceso de planificacion multiniveles</a></li>
+                  <li><a href="{{route('apunte26')}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
+                 </ul>
+              </li>
               <li><a class="drop" href="#">Parcial 3</a>
                <ul>
                  <li><a href="#">apunte.......</a></li>

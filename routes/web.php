@@ -106,5 +106,25 @@ Route::get('/apunte21', function () {
     return view('unidad 2.proceso desarrollo logico');
 })->name('apunte21');
 
+Route::get('/apunte22', function () {
+    return view('unidad2 parte2.concepto nivel vinculado');
+})->name('apunte22');
+
+Route::get('/apunte23', function () {
+    return view('unidad2 parte2.proceso de planificacio');
+})->name('apunte23');
+
+Route::get('/apunte24', function () {
+    return view('unidad2 parte2.proceso de planificacion en tres niveles');
+})->name('apunte24');
+
+Route::get('/apunte25', function () {
+    return view('unidad2 parte2.proceso de planificacion multinivel');
+})->name('apunte25');
+
+Route::get('/apunte26', function () {
+    return view('unidad2 parte2.problema de actualizacion y mantenimiento');
+})->name('apunte26');
+
 
 
