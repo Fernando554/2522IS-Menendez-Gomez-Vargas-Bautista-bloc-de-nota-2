@@ -71,7 +71,7 @@ Route::get('/apunte12', function () {
 })->name('apunte12');
 
 Route::get('/apunte13', function () {
-    return view('unidad1 parte 2.cliente servidor ventajas.desventajas');
+    return view('unidad1 parte 2.cliente servidor ventajas desventajas');
 })->name('apunte13');
 
 Route::get('/apunte14', function () {
