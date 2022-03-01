@@ -90,5 +90,21 @@ Route::get('/apunte17', function () {
     return view('unidad1 parte 2.tipos de servidores');
 })->name('apunte17');
 
+Route::get('/apunte18', function () {
+    return view('unidad 2.Conceptos de presentacion');
+})->name('apunte18');
+
+Route::get('/apunte19', function () {
+    return view('unidad 2.conceptos logica de acceso,etc');
+})->name('apunte19');
+
+Route::get('/apunte20', function () {
+    return view('unidad 2.proceso diseño logico');
+})->name('apunte20');
+
+Route::get('/apunte21', function () {
+    return view('unidad 2.proceso desarrollo logico');
+})->name('apunte21');
+
 
 

@@ -71,7 +71,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li class="active"><a href="{{route('inicio')}}">Home</a></li>
           <li><a class="drop" href="#">Apuntes</a>
             <ul>
-              <li><a class="drop" href="#">Parcial 1</a>
+              <li><a class="drop" href="#">Parcial 1 Introduccion a la arquitectura cliente servidor</a>
                 <ul>
                   <li><a href="{{route('apunte1')}}">Sistemas de informacion</a></li>
                   <li><a href="{{route('apunte2')}}">Evolucion de los sistemas de informacion</a></li>
@@ -83,7 +83,7 @@ Licence URI: https://www.os-templates.com/template-terms
                   <li><a href="{{route('apunte8')}}">Procesos de diagramacion de componentes de la arquitecura Cliente-Servidor</a></li>
                  </ul>
               </li>
-              <li><a class="drop" href="#">Parcial 1 parte 2</a>
+              <li><a class="drop" href="#">Parcial 1 Componentes y caracteristicas del cliente servidor</a>
                 <ul>
                   <li><a href="{{route('apunte9')}}">Componentes del modelo Cliente/Servidor.</a></li>
                   <li><a href="{{route('apunte10')}}">concepto de programa maestro</a></li>
@@ -96,12 +96,13 @@ Licence URI: https://www.os-templates.com/template-terms
                   <li><a href="{{route('apunte16')}}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
                 </ul>
               </li>
-              <li><a class="drop" href="#">Parcial 2</a>
+              <li><a class="drop" href="#">Parcial 2 Estrategias de reparto de complejidad</a>
                 <ul>
-                  <li><a href="#">apunte.......</a></li>
-                  <li><a href="#">apunte2........</a></li>
-                  <li><a href="#">apunte3.......</a></li>
-                </ul>
+                  <li><a href="{{route('apunte18')}}">Concepto presentacion distribuida,presentacion remota, proceso distribuido y acceso a datos remotos</a></li>
+                  <li><a href="{{route('apunte19')}}">Concepto de logica de acceso, presentacion y negocio a datos</a></li>
+                  <li><a href="{{route('apunte20')}}">Proceso de diseño de logica de acceso de datos, logica de presentacion de datos y logica de negocio</a></li>
+                  <li><a href="{{route('apunte21')}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
+                 </ul>
               </li>
               <li><a class="drop" href="#">Parcial 3</a>
                <ul>
