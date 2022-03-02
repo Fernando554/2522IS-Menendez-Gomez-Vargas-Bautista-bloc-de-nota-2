@@ -83,7 +83,7 @@ Route::get('/apunte15', function () {
 })->name('apunte15');
 
 Route::get('/apunte16', function () {
-    return view('unidad1 parte 2.componentes del modelo cliente-servidor');
+    return view('unidad1 parte 2.arquitectura cliente servidor con los modelos');
 })->name('apunte16');
 
 Route::get('/apunte17', function () {
