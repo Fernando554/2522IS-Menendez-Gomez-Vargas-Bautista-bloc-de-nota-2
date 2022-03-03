@@ -62,71 +62,71 @@ Licence URI: https://www.os-templates.com/template-terms
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left"> 
         <!-- ################################################################################################ -->
-        <h1><a href="{{route('inicio')}}">5°CUATRIMESTRE ING.SOFTWARE</a></h1>
+        <h1><a href="{{route('index')}}">5°CUATRIMESTRE ING.SOFTWARE</a></h1>
         <!-- ################################################################################################ -->
       </div>
       <nav id="mainav" class="fl_right"> 
         <!-- ################################################################################################ -->
         <ul class="clear">
-          <li class="active"><a href="{{route('inicio')}}">Home</a></li>
+          <li class="active"><a href="{{route('index')}}">Home</a></li>
           <li><a class="drop" href="#">Apuntes</a>
             <ul>
               <li><a class="drop" href="#">Parcial 1 Introduccion a la arquitectura cliente servidor</a>
                 <ul>
-                  <li><a href="{{route('apunte1')}}">Sistemas de informacion</a></li>
-                  <li><a href="{{route('apunte2')}}">Evolucion de los sistemas de informacion</a></li>
-                  <li><a href="{{route('apunte3')}}">Cliente Servidor</a></li>
-                  <li><a href="{{route('apunte4')}}">Sistemas de Computadoras Centrales y Dedicadas</a></li>
-                  <li><a href="{{route('apunte5')}}">Arquitecuta cliente servidor</a></li>
-                  <li><a href="{{route('apunte6')}}">Protocolos de comunicacion en redes</a></li>
-                  <li><a href="{{route('apunte7')}}">CLasificacion de los sistemas de informacion de acuerdo a su arquitectura</a></li>
-                  <li><a href="{{route('apunte8')}}">Procesos de diagramacion de componentes de la arquitecura Cliente-Servidor</a></li>
+                  <li><a href="#">Sistemas de informacion</a></li>
+                  <li><a href="#">Evolucion de los sistemas de informacion</a></li>
+                  <li><a href="#">Cliente Servidor</a></li>
+                  <li><a href="#">Sistemas de Computadoras Centrales y Dedicadas</a></li>
+                  <li><a href="#">Arquitecuta cliente servidor</a></li>
+                  <li><a href="#">Protocolos de comunicacion en redes</a></li>
+                  <li><a href="#">CLasificacion de los sistemas de informacion de acuerdo a su arquitectura</a></li>
+                  <li><a href="#">Procesos de diagramacion de componentes de la arquitecura Cliente-Servidor</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 1 Componentes y caracteristicas del cliente servidor</a>
                 <ul>
-                  <li><a href="{{route('apunte9')}}">Componentes del modelo Cliente/Servidor.</a></li>
-                  <li><a href="{{route('apunte10')}}">concepto de programa maestro</a></li>
-                  <li><a href="{{route('apunte11')}}">Procesos y tareas del programa maestro.</a></li>
-                  <li><a href="{{route('apunte17')}}">Tipos de servidores</a></li>
-                  <li><a href="{{route('apunte12')}}">Caracteristicas de la arquitectura cliente servidor</a></li>
-                  <li><a href="{{route('apunte13')}}">ventajas y desventajas de la arquitectura cliente servidor</a></li>
-                  <li><a href="{{route('apunte14')}}">Concepto de computo en la nube</a></li>
-                  <li><a href="{{route('apunte15')}}">Conceptos de Infrastructure as a Service (IAAS), Platform as a Service (PAAS), Software as a Service (SAAS)</a></li>
-                  <li><a href="{{route('apunte16')}}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
+                  <li><a href="{{route('T_unidad1',1)}}">Componentes del modelo Cliente/Servidor.</a></li>
+                  <li><a href="{{route('T_unidad1',2)}}">concepto de programa maestro</a></li>
+                  <li><a href="{{route('T_unidad1',3)}}">Procesos y tareas del programa maestro.</a></li>
+                  <li><a href="{{route('T_unidad1',4)}}">Tipos de servidores</a></li>
+                  <li><a href="{{route('T_unidad1',5)}}">Caracteristicas de la arquitectura cliente servidor</a></li>
+                  <li><a href="{{route('T_unidad1',6)}}">ventajas y desventajas de la arquitectura cliente servidor</a></li>
+                  <li><a href="{{route('T_unidad1',7)}}">Concepto de computo en la nube</a></li>
+                  <li><a href="{{route('T_unidad1',8)}}">Conceptos de Infrastructure as a Service (IAAS), Platform as a Service (PAAS), Software as a Service (SAAS)</a></li>
+                  <li><a href="{{route('T_unidad1',9)}}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
                 </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Estrategias de reparto de complejidad</a>
                 <ul>
-                  <li><a href="{{route('apunte18')}}">Concepto presentacion distribuida,presentacion remota, proceso distribuido y acceso a datos remotos</a></li>
-                  <li><a href="{{route('apunte19')}}">Concepto de logica de acceso, presentacion y negocio a datos</a></li>
-                  <li><a href="{{route('apunte20')}}">Proceso de diseño de logica de acceso de datos, logica de presentacion de datos y logica de negocio</a></li>
-                  <li><a href="{{route('apunte21')}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
+                  <li><a href="{{route('T_unidad2',10)}}">Concepto presentacion distribuida,presentacion remota, proceso distribuido y acceso a datos remotos</a></li>
+                  <li><a href="{{route('T_unidad2',11)}}">Concepto de logica de acceso, presentacion y negocio a datos</a></li>
+                  <li><a href="{{route('T_unidad2',12)}}">Proceso de diseño de logica de acceso de datos, logica de presentacion de datos y logica de negocio</a></li>
+                  <li><a href="{{route('T_unidad2',13)}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Modelos multinivel</a>
                 <ul>
-                  <li><a href="{{route('apunte22')}}">Concepto de nivel vinculado a programacion web</a></li>
-                  <li><a href="{{route('apunte23')}}">Proceso de planificacion en dos niveles</a></li>
-                  <li><a href="{{route('apunte24')}}">Proceso de planificacion en tres niveles</a></li>
-                  <li><a href="{{route('apunte25')}}">Proceso de planificacion multiniveles</a></li>
-                  <li><a href="{{route('apunte26')}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
+                  <li><a href="{{route('T_unidad2',14)}}">Concepto de nivel vinculado a programacion web</a></li>
+                  <li><a href="{{route('T_unidad2',15)}}">Proceso de planificacion en dos niveles</a></li>
+                  <li><a href="{{route('T_unidad2',16)}}">Proceso de planificacion en tres niveles</a></li>
+                  <li><a href="{{route('T_unidad2',17)}}">Proceso de planificacion multiniveles</a></li>
+                  <li><a href="{{route('T_unidad2',18)}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Modelo Vista Controlador</a>
                 <ul>
-                  <li><a href="{{route('apunte27')}}">Concepto de modelo, control y vista</a></li>
-                  <li><a href="{{route('apunte28')}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
-                  <li><a href="{{route('apunte29')}}">Proceso de flujo de control a partir del MVC</a></li>
-                  <li><a href="{{route('apunte30')}}">Desarrollo de software a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',19)}}">Concepto de modelo, control y vista</a></li>
+                  <li><a href="{{route('T_unidad2',20)}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
+                  <li><a href="{{route('T_unidad2',21)}}">Proceso de flujo de control a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',22)}}">Desarrollo de software a partir del MVC</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Sockets</a>
                 <ul>
-                  <li><a href="{{route('apunte27')}}">Concepto de modelo, control y vista</a></li>
-                  <li><a href="{{route('apunte28')}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
-                  <li><a href="{{route('apunte29')}}">Proceso de flujo de control a partir del MVC</a></li>
-                  <li><a href="{{route('apunte30')}}">Desarrollo de software a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',23)}}">Concepto de modelo, control y vista</a></li>
+                  <li><a href="{{route('T_unidad2',24)}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
+                  <li><a href="{{route('T_unidad2',25)}}">Proceso de flujo de control a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',26)}}">Desarrollo de software a partir del MVC</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 3</a>
@@ -156,8 +156,9 @@ Licence URI: https://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <div id="breadcrumb" class="hoc clear"> 
-    <!-- ################################################################################################ -->
     @yield('titulo')
+    <!-- ################################################################################################ -->
+    @yield('titular')
     <!-- ################################################################################################ -->
   </div>
   <!-- ################################################################################################ -->
@@ -170,7 +171,7 @@ Licence URI: https://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    @yield('contenido')
+    @yield('cuerpo')
 
     <!-- ################################################################################################ -->
     <!-- / main body -->

@@ -3,41 +3,53 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Publicacion;
 
 class publicacionController extends Controller
 {
-    public function primeruni($id){
-        $publicacion = publicacion::find(1);
-        $titulo = $publicacion->titulo;
-        $titulo = $publicacion->contenido;
+   public function index()
+   {
+       return view('index');
+   }
 
-        return view('primera unidad',['Titulo' => $titulo, 'Contenido'=>$contenido ]);
-    }
+   public function unidad1()
+   {
+    $publicacion = Publicacion::find(1);
+       $Nombre = $publicacion->nombre;
+       $Titular = $publicacion->titular;
+       $contenido = $publicacion->contenido;
 
-    public function temasunidad1($id)
-    {
-        $publicacion = Publicacion::find(1);
-        $titulo = $publicacion->titulo;
-        $contenido = $publicacion->contenido;
+       return view('unidad1',['Nombre' => $Nombre, 'Titular' => $Titular, 'Contenido' => $contenido]);
+   }
 
-        return view('primerunidad',['Titulo' =>$titulo, 'contenido' =>$contenido]);
-    }
+   public function T_unidad1($id)
+   {
+    $publicacion = Publicacion::find($id);
+       $Nombre = $publicacion->nombre;
+       $Titular = $publicacion->titular;
+       $contenido = $publicacion->contenido;
 
-    public function segundauni($id)
-    {
-        $publicacion = Publicacion::find(1);
-        $titulo = $publicacion->titulo;
-        $contenido = $publicacion->contenido;
+       return view('unidad1',['Nombre' => $Nombre, 'Titular' => $Titular, 'Contenido' => $contenido]);
+   }
 
-        return view('segundaunidad',['Titulo' =>$titulo, 'contenido' =>$contenido]);
-    }
+   public function unidad2()
+   {
+    $publicacion = Publicacion::find(10);
+       $Nombre = $publicacion->nombre;
+       $Titular = $publicacion->titular;
+       $contenido = $publicacion->contenido;
 
-    public function temasunidad2($id)
-    {
-        $publicacion = Publicacion::find(1);
-        $titulo = $publicacion->titulo;
-        $contenido = $publicacion->contenido;
+       return view('unidad2',['Nombre' => $Nombre, 'Titular' => $Titular, 'Contenido' => $contenido]);
 
-        return view('segundaunidad',['Titulo' =>$titulo, 'contenido' =>$contenido]);
-    }
+   }
+
+   public function T_unidad2($id)
+   {
+    $publicacion = Publicacion::find($id);
+    $Nombre = $publicacion->nombre;
+    $Titular = $publicacion->titular;
+    $contenido = $publicacion->contenido;
+
+    return view('unidad2',['Nombre' => $Nombre, 'Titular' => $Titular, 'Contenido' => $contenido]);
+   }
 }

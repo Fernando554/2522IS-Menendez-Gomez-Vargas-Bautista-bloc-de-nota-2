@@ -15,12 +15,13 @@ return new class extends Migration
     {
         Schema::create('publicaciones', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre', 3000);
-            $table->string('titular', 3000);
-            $table->string('contenido', 3000);
+            $table->string('nombre', 6000);
+            $table->string('titular', 6000);
+            $table->text('contenido', 6000);
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.
