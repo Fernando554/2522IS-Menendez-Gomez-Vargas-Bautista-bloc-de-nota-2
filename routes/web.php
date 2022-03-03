@@ -126,5 +126,36 @@ Route::get('/apunte26', function () {
     return view('unidad2 parte2.problema de actualizacion y mantenimiento');
 })->name('apunte26');
 
+Route::get('/apunte27', function () {
+    return view('unidad2 parte3.concepto modelo-vista.controlador');
+})->name('apunte27');
+
+Route::get('/apunte28', function () {
+    return view('unidad2 parte3.concepto de MVC');
+})->name('apunte28');
+
+Route::get('/apunte29', function () {
+    return view('unidad2 parte3.proceso flujo MVC');
+})->name('apunte29');
+
+Route::get('/apunte30', function () {
+    return view('unidad2 parte3.Desarrollo software MVC');
+})->name('apunte30');
+
+Route::get('/apunte31', function () {
+    return view('unidad2 parte4.concepto API y comunicacion orientada a conexicion');
+})->name('apunte31');
+
+Route::get('/apunte32', function () {
+    return view('unidad2 parte4.proceso API y comunicacion orientada a conexicion');
+})->name('apunte32');
+
+Route::get('/apunte33', function () {
+    return view('unidad2 parte4.concepto sockets');
+})->name('apunte33');
+
+Route::get('/apunte34', function () {
+    return view('unidad2 parte4.proceso de uso de socket');
+})->name('apunte34');
 
 

@@ -113,6 +113,22 @@ Licence URI: https://www.os-templates.com/template-terms
                   <li><a href="{{route('apunte26')}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
                  </ul>
               </li>
+              <li><a class="drop" href="#">Parcial 2 Modelo Vista Controlador</a>
+                <ul>
+                  <li><a href="{{route('apunte27')}}">Concepto de modelo, control y vista</a></li>
+                  <li><a href="{{route('apunte28')}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
+                  <li><a href="{{route('apunte29')}}">Proceso de flujo de control a partir del MVC</a></li>
+                  <li><a href="{{route('apunte30')}}">Desarrollo de software a partir del MVC</a></li>
+                 </ul>
+              </li>
+              <li><a class="drop" href="#">Parcial 2 Sockets</a>
+                <ul>
+                  <li><a href="{{route('apunte27')}}">Concepto de modelo, control y vista</a></li>
+                  <li><a href="{{route('apunte28')}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
+                  <li><a href="{{route('apunte29')}}">Proceso de flujo de control a partir del MVC</a></li>
+                  <li><a href="{{route('apunte30')}}">Desarrollo de software a partir del MVC</a></li>
+                 </ul>
+              </li>
               <li><a class="drop" href="#">Parcial 3</a>
                <ul>
                  <li><a href="#">apunte.......</a></li>
