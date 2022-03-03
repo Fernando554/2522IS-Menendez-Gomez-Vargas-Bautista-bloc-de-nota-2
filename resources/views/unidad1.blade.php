@@ -1,4 +1,4 @@
-@extends('Template.layout')
+@extends('template.layout')
 
 @section('titulo')
 <h6 class="heading">Primer parcial{!! $Nombre !!}</h6>
