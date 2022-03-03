@@ -1,7 +1,7 @@
 @extends('Template.layout')
 
 @section('titulo')
-<h6 class="heading">PRIMER PARCIAL</h6>
+<h6 class="heading">Primer parcial{!! $Nombre !!}</h6>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Apuntes</a></li>

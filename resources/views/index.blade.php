@@ -113,6 +113,14 @@
                   <li><a href="{{route('T_unidad2',21)}}">Desarrollo de software a partir del MVC</a></li>
                  </ul>
               </li>
+              <li><a class="drop" href="#">Parcial 2 Sockets</a>
+                <ul>
+                  <li><a href="{{route('T_unidad2',22)}}">Definir el concepto de comunicación orientada a conexión e interfaz de programación de aplicaciones (API).</a></li>
+                  <li><a href="{{route('T_unidad2',23)}}">Explicar el proceso de comunicación y configuración orientada a conexión e interfaz de programación de aplicaciones (API).</a></li>
+                  <li><a href="{{route('T_unidad2',24)}}">Definir el concepto de sockets.</a></li>
+                  <li><a href="{{route('T_unidad2',25)}}">Explicar el proceso del uso de sockets en aplicaciones Cliente/Servidor.</a></li>
+                 </ul>
+              </li>
               <li><a class="drop" href="#">Parcial 3</a>
                <ul>
                  <li><a href="#">apunte.......</a></li>

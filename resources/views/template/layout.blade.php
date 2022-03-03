@@ -89,44 +89,44 @@ Licence URI: https://www.os-templates.com/template-terms
                   <li><a href="{{route('T_unidad1',2)}}">concepto de programa maestro</a></li>
                   <li><a href="{{route('T_unidad1',3)}}">Procesos y tareas del programa maestro.</a></li>
                   <li><a href="{{route('T_unidad1',4)}}">Tipos de servidores</a></li>
-                  <li><a href="{{route('T_unidad1',5)}}">Caracteristicas de la arquitectura cliente servidor</a></li>
-                  <li><a href="{{route('T_unidad1',6)}}">ventajas y desventajas de la arquitectura cliente servidor</a></li>
-                  <li><a href="{{route('T_unidad1',7)}}">Concepto de computo en la nube</a></li>
-                  <li><a href="{{route('T_unidad1',8)}}">Conceptos de Infrastructure as a Service (IAAS), Platform as a Service (PAAS), Software as a Service (SAAS)</a></li>
-                  <li><a href="{{route('T_unidad1',9)}}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
+                  <li><a href="{{route('T_unidad1',5)}}">ventajas y desventajas de la arquitectura cliente servidor</a></li>
+                  <li><a href="{{route('T_unidad1',6)}}">Concepto de computo en la nube</a></li>
+                  <li><a href="{{route('T_unidad1',7)}}">Conceptos de Infrastructure as a Service (IAAS), Platform as a Service (PAAS), Software as a Service (SAAS)</a></li>
+                  <li><a href="{{route('T_unidad1',8)}}">Describir la arquitectura Cliente/Servidor con los modelos de cómputo en la nube IAAS, PAAS, SAAS.</a></li>
                 </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Estrategias de reparto de complejidad</a>
                 <ul>
-                  <li><a href="{{route('T_unidad2',10)}}">Concepto presentacion distribuida,presentacion remota, proceso distribuido y acceso a datos remotos</a></li>
-                  <li><a href="{{route('T_unidad2',11)}}">Concepto de logica de acceso, presentacion y negocio a datos</a></li>
-                  <li><a href="{{route('T_unidad2',12)}}">Proceso de diseño de logica de acceso de datos, logica de presentacion de datos y logica de negocio</a></li>
-                  <li><a href="{{route('T_unidad2',13)}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
+                  <li><a href="{{route('T_unidad2',9)}}">Concepto presentacion distribuida,presentacion remota, proceso distribuido y acceso a datos remotos</a></li>
+                  <li><a href="{{route('T_unidad2',10)}}">Concepto de logica de acceso, presentacion y negocio a datos</a></li>
+                  <li><a href="{{route('T_unidad2',11)}}">Proceso de diseño de logica de acceso de datos, logica de presentacion de datos y logica de negocio</a></li>
+                  <li><a href="{{route('T_unidad2',12)}}">Proceso de desarrollo de logica de acceso a datos, logica de presentacion de datos y logica de negocio</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Modelos multinivel</a>
                 <ul>
-                  <li><a href="{{route('T_unidad2',14)}}">Concepto de nivel vinculado a programacion web</a></li>
-                  <li><a href="{{route('T_unidad2',15)}}">Proceso de planificacion en dos niveles</a></li>
-                  <li><a href="{{route('T_unidad2',16)}}">Proceso de planificacion en tres niveles</a></li>
-                  <li><a href="{{route('T_unidad2',17)}}">Proceso de planificacion multiniveles</a></li>
-                  <li><a href="{{route('T_unidad2',18)}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
+                  <li><a href="{{route('T_unidad2',13)}}">Concepto de nivel vinculado a programacion web</a></li>
+                  <li><a href="{{route('T_unidad2',14)}}">Proceso de planificacion en dos niveles</a></li>
+                  <li><a href="{{route('T_unidad2',15)}}">Proceso de planificacion en tres niveles</a></li>
+                  <li><a href="{{route('T_unidad2',16)}}">Proceso de planificacion multiniveles</a></li>
+                  <li><a href="{{route('T_unidad2',17)}}">Identificar problemas de actuacion y mantenimiento de aplicaciones multinivel</a></li>
                  </ul>
+              </li>
               </li>
               <li><a class="drop" href="#">Parcial 2 Modelo Vista Controlador</a>
                 <ul>
-                  <li><a href="{{route('T_unidad2',19)}}">Concepto de modelo, control y vista</a></li>
-                  <li><a href="{{route('T_unidad2',20)}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
-                  <li><a href="{{route('T_unidad2',21)}}">Proceso de flujo de control a partir del MVC</a></li>
-                  <li><a href="{{route('T_unidad2',22)}}">Desarrollo de software a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',18)}}">Concepto de modelo, control y vista</a></li>
+                  <li><a href="{{route('T_unidad2',19)}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
+                  <li><a href="{{route('T_unidad2',20)}}">Proceso de flujo de control a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',21)}}">Desarrollo de software a partir del MVC</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 2 Sockets</a>
                 <ul>
-                  <li><a href="{{route('T_unidad2',23)}}">Concepto de modelo, control y vista</a></li>
-                  <li><a href="{{route('T_unidad2',24)}}">concepto de Modelo VIsta Controlador(MVC)</a></li>
-                  <li><a href="{{route('T_unidad2',25)}}">Proceso de flujo de control a partir del MVC</a></li>
-                  <li><a href="{{route('T_unidad2',26)}}">Desarrollo de software a partir del MVC</a></li>
+                  <li><a href="{{route('T_unidad2',22)}}">Definir el concepto de comunicación orientada a conexión e interfaz de programación de aplicaciones (API).</a></li>
+                  <li><a href="{{route('T_unidad2',23)}}">Explicar el proceso de comunicación y configuración orientada a conexión e interfaz de programación de aplicaciones (API).</a></li>
+                  <li><a href="{{route('T_unidad2',24)}}">Definir el concepto de sockets.</a></li>
+                  <li><a href="{{route('T_unidad2',25)}}">Explicar el proceso del uso de sockets en aplicaciones Cliente/Servidor.</a></li>
                  </ul>
               </li>
               <li><a class="drop" href="#">Parcial 3</a>
